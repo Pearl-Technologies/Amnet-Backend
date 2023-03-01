@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index",
-    "build": "make && make install"
+    "build": "pm2 start index.js"
   },
   "keywords": [],
   "author": "",
